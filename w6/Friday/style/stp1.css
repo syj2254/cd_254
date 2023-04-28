@@ -8,24 +8,25 @@ body {
 }
 
 .section {
-    /*background-color: red; */
+    /* background-color: red; */
 }
+
 .container {
     --anyName: 24px;
     padding-inline: var(--anyName);
     margin-inline: auto;
     max-width: calc(1200px + 2 * var(--anyName));
-    /*background-color: green; */
+    /* background-color: green; */
 }
 .wrapper {
     padding-block: 64px;
-   /* background-color: blue; */
+    /* background-color: blue; */
 }
 
 .button {
     font-size: 18px;
     background-color: slateblue;
-    color: white;
+    color:white;
     padding: 8px 16px;
     text-transform: capitalize;
     font-weight: 700;
@@ -34,20 +35,20 @@ body {
     border-radius: 8px;
 }
 
+.flex h2 {
+    margin-bottom: 24px;
+}
+
 .flex {
+    width: 60%;
+    margin-inline: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60%;
-    margin-inline: auto;
 }
 
 .flex--dir--column {
     flex-direction: column;
-}
-
-.flex h2 {
-    margin-bottom: 24px;
 }
 
 .flex p {
@@ -58,7 +59,6 @@ body {
 .flex .button {
     margin-bottom: 36px;
 }
-
 .video {
     background-color: aquamarine;
     width: 100%;
