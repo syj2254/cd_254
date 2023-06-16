@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* stylelint-disable declaration-block-no-redundant-longhand-properties */
 /* stylelint-disable selector-class-pattern */
 /* stylelint-disable scss/dollar-variable-pattern */
@@ -44,7 +43,7 @@ body {
   margin-inline: auto;
   padding-inline: 2rem;
   text-align: center;
-  background: url(img/Artboard\ 1-80\ 복사본\ 2.jpg);
+  background: url(img/man-2395909_1280.jpg);
 }
 
 .wrapper2 {
@@ -70,7 +69,7 @@ header h1 {
   text-align: center;
   flex-wrap: balance;
   font-size: 100px;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 165, 165);
 }
 
 .stickyWrap {
