@@ -20,9 +20,4 @@ const progressBar = () => {
   }
 };
 
-// // 이벤트 리스너 추가하는 법 1
-// document.onscroll = () => {
-//   progressBar();
-// };
-// 이벤트 리스너 추가하는 법 2
 document.addEventListener("scroll", progressBar);
