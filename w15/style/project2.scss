@@ -84,7 +84,7 @@ body {
 header {
   h1 {
     text-align: center;
-    text-wrap: balance;
+    flex-wrap: balance;
     font-size: 100px;
     color: rgb(0, 0, 0);
   }
@@ -382,10 +382,10 @@ footer {
     padding-inline: unset;
     overflow-x: scroll;
     border-radius: 0 0 0.625rem 0.625rem;
-    scrollbar-width: none; /* Firefox */
-    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none;
+    -ms-overflow-style: none;
     &::-webkit-scrollbar {
-      display: none; /* Chrome, Safari, Opera */
+      display: none;
     }
 
     ol {
